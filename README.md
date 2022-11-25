@@ -8,7 +8,7 @@ This is a repository for assignment B3 of STATS 545B. This assignment consisted 
 For this assingment I chose **Option B** creating my own shiny app.
 
 # Shiny App Description
-This repository contains a shiny app called bcsp which is an application that displays a table of the programs offered in BC schools from the academic years 2005/2006 to 2013/2014. The data set was obtained from the British Columbia data catalogue. 
+This repository contains a shiny app called bcsp (in the bc_school_programs folder) which is an application that displays a table of the programs offered in BC schools from the academic years 2005/2006 to 2013/2014. The data set was obtained from the British Columbia data catalogue. 
 - Link to dataset:https://catalogue.data.gov.bc.ca/dataset/bc-schools-programs-offered-in-schools
 This app allows for easy filtering through the school districts and acadmic years to better understand the programs that were offered by different school in B.C between the years 2005 and 2014.
 - Link to app: https://aimanpour.shinyapps.io/bc_school_programs/
