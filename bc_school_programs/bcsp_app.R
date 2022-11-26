@@ -15,9 +15,12 @@ ui <- fluidPage(
   br(),
   sidebarLayout(
     sidebarPanel(
+      # Feature 1: Add a slider that lets the user filter through the district numbers and view the different programs for either a single district or a range of districts.
       sliderInput("programs_slider", "Select a district range:", min = 5, max = 625, value = c(30, 65)),
+      # Feature 2: Add radio buttons so the user can filter through specific academic years rather than viewing the entire dataset.
       radioButtons("yearInput", "School Year", choices = c("2005/2006", "2006/2007", "2007/2008", "2008/2009", "2009/2010", "2010/2011",
                                                            "2011/2012", "2012/2013", "2013/2014"))),
+    # Feature 3: Add a table that allows the user to view the different programs offered in BC based off of the filters they indicated in feature 1 and 2.
     mainPanel("bcsp", DT::dataTableOutput("programs_table"))))
 
 server <- function(input, output) {
