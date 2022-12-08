@@ -11,7 +11,8 @@ For this assingment I chose **Option B** creating my own shiny app.
 This repository contains a shiny app called bcsp (in the bc_school_programs folder) which is an application that displays a table of the programs offered in British Columbia schools from the academic years 2005/2006 to 2013/2014. The dataset was obtained from the British Columbia data catalogue. 
 - Link to dataset:https://catalogue.data.gov.bc.ca/dataset/bc-schools-programs-offered-in-schools
 This app allows for easy filtering through the school districts and acadmic years to better understand the programs that were offered by different school in B.C.
-- Link to app: https://aimanpour.shinyapps.io/bc_school_programs/
+- Link to original app: https://aimanpour.shinyapps.io/bc_school_programs/
+- Link to updated app: https://aimanpour.shinyapps.io/bc_school_programs_updated/
 
 # Description of the files in the assignment-b3-asanaiman repository
 1. README.md: his file that explains the components of this repository as well as its purpose.
