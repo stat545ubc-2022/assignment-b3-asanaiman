@@ -1,14 +1,13 @@
-
-#Loading packages
+# Loading packages
 library("shiny")
 library("tidyverse")
 
-#Loading the Dataset
+# Loading the Dataset
 bcsp <- read_csv("ProgramsOfferedinSchools.csv") %>% 
   select(-`Data Level`) %>% 
   filter(`District Number` != "NA")
 
-#Making My Shiny App
+# Making My Shiny App
 ui <- fluidPage(
   titlePanel("Programs Offered in B.C. Schools"),
   h5("This shiny app let's you explore the different programs offered in British Columbia Schools."),
