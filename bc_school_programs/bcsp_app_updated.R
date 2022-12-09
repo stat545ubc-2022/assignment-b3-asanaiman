@@ -35,9 +35,10 @@ ui <- fluidPage(
                   selected = "STANDARD", 
                   options = list(`actions-box` = TRUE, `none-selected-text` = ("Please Select Preferred Facility Type(s)")), 
                   multiple = TRUE),
+      # Feature 4: Adding a submit button so the table is not constantly changing while user is deciding their preferred filters.
       submitButton(text = "Apply Changes", icon = icon("refresh"), width = NULL),
       helpText("Click the", strong("Apply Changes"), "button for the filters you applied to be reflected in the table output.")),
-    # Feature 4: Adding a table that allows the user to view the different programs offered in BC based off of the filters they indicated in feature 1 and 2.
+    # Feature 5: Adding a table that allows the user to view the different programs offered in BC based off of the filters they indicated in feature 1 and 2.
   mainPanel("bcsp", DT::dataTableOutput("programs_table"))))
 
 
